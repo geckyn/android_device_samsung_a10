@@ -90,6 +90,10 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
 
+# Usb hal
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.a10
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
