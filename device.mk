@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
     wifi_slsi.rc \
     ueventd.exynos7885.rc
 
+# RIL
+PRODUCT_PACKAGES += \
+    vendor.samsung.hardware.radio@1.2.vendor
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
