@@ -158,5 +158,7 @@ VENDOR_SECURITY_PATCH := 2019-12-01
 BOARD_HARDWARE_CLASS := \
     hardware/samsung/lineagehw
 
+WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
+
 # Inherit from the proprietary version
 -include vendor/samsung/a10/BoardConfigVendor.mk
