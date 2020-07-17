@@ -18,5 +18,8 @@ DEVICE_PATH := device/samsung/a10
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
+# Properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/a10/a10-vendor.mk)
