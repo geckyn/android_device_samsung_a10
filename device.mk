@@ -18,6 +18,14 @@ DEVICE_PATH := device/samsung/a10
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1520
+TARGET_SCREEN_WIDTH := 720
+
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
