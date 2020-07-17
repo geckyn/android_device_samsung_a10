@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
 	$(LOCAL_PATH)/configs/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup
 
+# Seccomp
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/configs/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
+
 # System.prop
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
