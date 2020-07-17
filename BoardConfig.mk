@@ -85,6 +85,11 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := a10
 
