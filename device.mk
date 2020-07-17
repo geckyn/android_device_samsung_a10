@@ -29,6 +29,11 @@ TARGET_SCREEN_WIDTH := 720
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Public Libraries
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
+	$(LOCAL_PATH)/configs/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup
+
 # System.prop
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
