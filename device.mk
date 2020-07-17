@@ -29,5 +29,8 @@ TARGET_SCREEN_WIDTH := 720
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# System.prop
+TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
+
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/a10/a10-vendor.mk)
