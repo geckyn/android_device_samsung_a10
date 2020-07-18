@@ -141,6 +141,9 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 # System-as-root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
+# System.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Vendor Security Patch
 VENDOR_SECURITY_PATCH := 2019-12-01
 
