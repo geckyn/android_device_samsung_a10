@@ -137,6 +137,9 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Vendor Security Patch
+VENDOR_SECURITY_PATCH := 2019-12-01
+
 # Lineage hardware
 BOARD_HARDWARE_CLASS := \
     hardware/samsung/lineagehw
