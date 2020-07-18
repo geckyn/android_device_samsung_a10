@@ -117,6 +117,14 @@ TARGET_USES_MKE2FS := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.exynos7885
 
+# Root
+BOARD_ROOT_EXTRA_FOLDERS := \
+    efs \
+    dqmdbg \
+    keydata \
+    keyrefuge \
+    omr
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
