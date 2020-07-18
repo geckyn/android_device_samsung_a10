@@ -128,6 +128,9 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     keyrefuge \
     omr
 
+# Ril
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
