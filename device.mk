@@ -75,6 +75,11 @@ PRODUCT_PACKAGES += \
     wifi_slsi.rc \
     ueventd.exynos7885.rc
 
+# Treble
+PRODUCT_USE_VNDK_OVERRIDE := true
+PRODUCT_SHIPPING_API_LEVEL := 28
+PRODUCT_VENDOR_MOVE_ENABLED := true
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
