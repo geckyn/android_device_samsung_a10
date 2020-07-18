@@ -62,6 +62,19 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
 	$(LOCAL_PATH)/configs/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+	fstab.exynos7885 \
+	init.baseband.rc \
+	init.exynos7885.rc \
+	init.exynos7885.usb.rc \
+	init.gps.rc \
+	init.vendor.rilchip.rc \
+	init.vendor.rilcommon.rc \
+	init.wifi.rc \
+	wifi_slsi.rc \
+	ueventd.exynos7885.rc
+
 # Seccomp
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
