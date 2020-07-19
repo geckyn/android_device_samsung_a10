@@ -24,3 +24,6 @@ type bluetooth_device, dev_type;
 
 # /dev/knox_kap
 type knox_device, dev_type;
+
+# Root
+type omr_block_device, dev_type;

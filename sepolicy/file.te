@@ -21,3 +21,9 @@ type sysfs_sec, fs_type, sysfs_type, fs_type, mlstrustedobject;
 type sysfs_camera_writable, fs_type, sysfs_type, mlstrustedobject;
 
 allow sysfs_type tmpfs:filesystem associate;
+
+# Root
+type keydata_data_file, file_type;
+type keyrefuge_data_file, file_type;
+type omr_file, file_type;
+type dqmdbg_file, file_type;
