@@ -373,8 +373,8 @@
         <item>675</item>
         <item>700</item>
     </array>
-    <array name="config_autoBrightnessKeyboardBacklightValues" />
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
+
+    <integer-array name="config_autoBrightnessKeyboardBacklightValues">
         <item>6</item>
         <item>6</item>
         <item>6</item>
