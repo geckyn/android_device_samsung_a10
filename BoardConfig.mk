@@ -56,9 +56,6 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-# AUDIO
-USE_XML_AUDIO_POLICY_CONF := 1
-
 # Android Verified Boot
 BOARD_AVB_ENABLE := false
 BOARD_BUILD_DISABLED_VBMETAIMAGE := true
@@ -68,14 +65,12 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_HAVE_SAMSUNG_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/libbt_vndcfg.txt
 
 # Samsung Audio Hal
 TARGET_AUDIOHAL_VARIANT := samsung
 
 # VNDK
 BOARD_VNDK_VERSION := current
-BOARD_VNDK_RUNTIME_DISABLE := true
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
@@ -86,12 +81,6 @@ TARGET_USES_64_BIT_BINDER := true
 # Graphics
 USE_OPENGL_RENDERER := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
-BOARD_USES_EXYNOS5_COMMON_GRALLOC := true
-TARGET_USES_HWC2 := true
-
-
-# HWComposer
-TARGET_HWC2_NO_SKIPVALIDATE := true
 
 # DEX Pre-optimization
 ifeq ($(HOST_OS),linux)
@@ -105,6 +94,9 @@ endif
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
+# Keymaster
+TARGET_KEYMASTER_VARIANT := samsung
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := a10
@@ -134,29 +126,29 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     keyrefuge \
     omr
 
+
+BOARD_ROOT_EXTRA_SYMLINKS := \
+    /mnt/vendor/efs:/efs/efs
+
+# Renderscript
+OVERRIDE_RS_DRIVER := libRSDriverArm.so
+
 # Ril
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # SELinux
 BOARD_SEPOLICY_VERS := 28.0
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # System-as-root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
-# System.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
 # Vendor Security Patch
 VENDOR_SECURITY_PATCH := 2019-12-01
-
-# Lineage hardware
-BOARD_HARDWARE_CLASS := \
-    hardware/samsung/lineagehw
 
 # Inherit from the proprietary version
 -include vendor/samsung/a10/BoardConfigVendor.mk
