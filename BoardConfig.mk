@@ -104,7 +104,9 @@ endif
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/android.hardware.cas@1.1-service.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := a10
@@ -152,7 +154,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Vendor Security Patch
-VENDOR_SECURITY_PATCH := 2019-12-01
+VENDOR_SECURITY_PATCH := 2020-06-01
 
 # Lineage hardware
 BOARD_HARDWARE_CLASS := \

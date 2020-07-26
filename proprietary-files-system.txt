@@ -1,3 +1,2 @@
 -app/ImsSettings/ImsSettings.apk
-etc/nfcee_access.xml
 lib/libaptX_encoder.so

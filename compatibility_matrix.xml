@@ -1,3 +1,9 @@
+<!--
+    Input:
+        compatibility_matrix.xml
+        device_compatibility_matrix.xml
+        device_compatibility_matrix.xml
+-->
 <compatibility-matrix version="1.0" type="device">
     <hal format="hidl" optional="true">
         <name>android.frameworks.displayservice</name>
@@ -72,15 +78,23 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.samsung.frameworks.ucm.wifi</name>
+        <name>vendor.samsung.frameworks.security.dsms</name>
         <version>1.0</version>
         <interface>
-            <name>IUCMKeystore</name>
+            <name>ISehDsms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.samsung.frameworks.security.ucm.crypto</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISehUcmKeystore</name>
             <instance>default</instance>
         </interface>
     </hal>
     <vendor-ndk>
-        <version>28</version>
+        <version>29</version>
     </vendor-ndk>
     <system-sdk>
         <version>28</version>

@@ -39,695 +39,113 @@
             <item value="cbs" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="310" mnc="120">
-        <long name="data_warning_threshold_bytes_long" value="-2" />
+    <carrier_config cid="1">
+        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
     </carrier_config>
-    <carrier_config mcc="311" mnc="870">
-        <long name="data_warning_threshold_bytes_long" value="-2" />
+    <carrier_config cid="1949">
+        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
     </carrier_config>
-    <carrier_config mcc="311" mnc="490">
-        <long name="data_warning_threshold_bytes_long" value="-2" />
+    <carrier_config cid="2020">
+        <boolean name="always_play_remote_hold_tone_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="310" mnc="000">
-        <long name="data_warning_threshold_bytes_long" value="-2" />
+    <carrier_config cid="2091">
+        <string name="sem_vowifi_opname_string">bonbon WiFi</string>
     </carrier_config>
-    <carrier_config mcc="312" mnc="530">
-        <long name="data_warning_threshold_bytes_long" value="-2" />
+    <carrier_config cid="2018">
+        <string name="sem_vowifi_opname_string">Jio WiFi</string>
     </carrier_config>
-    <carrier_config mcc="310" mnc="160" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    <carrier_config cid="31">
+        <string name="sem_vowifi_opname_string">Singtel</string>
     </carrier_config>
-    <carrier_config mcc="310" mnc="200" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="210" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="220" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="230" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="240" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="250" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="270" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="310" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="490" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="660" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="800" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="886" gid1="544D">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="160">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="200">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="210">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="220">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="230">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="240">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="250">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="270">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="300">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="310">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="490">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="530">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="580">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="590">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="640">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="660">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="800">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260" gid1="4D4B">
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260" gid1="534D">
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260" gid1="DEFF">
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="311" mnc="480" gid1="BA01270000000000">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="028" gid1="BA01270000000000">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="311" mnc="390" gid1="BA01270000000000">
-        <long name="data_warning_threshold_bytes_long" value="100000000000" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="150">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="170">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="380">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="410">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="560">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="311" mnc="180">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="950">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="030">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
+    <carrier_config cid="530">
+        <boolean name="spn_display_rule_use_roaming_from_service_state_bool" value="true" />
+        <string-array name="gsm_nonroaming_networks_string_array" num="4">
+            <item value="72410" />
+            <item value="72411" />
+            <item value="72406" />
+            <item value="72423" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="310" mnc="280">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
+    <carrier_config cid="1385">
+        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+            <item value="72402" />
+            <item value="72403" />
+            <item value="72404" />
         </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="313" mnc="100">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="312" mnc="670">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="311" mnc="480">
-        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
-            <item value="*71" />
-            <item value="*72" />
-            <item value="*73" />
-        </string-array>
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-        <long name="data_warning_threshold_bytes_long" value="-2" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="5">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-            <item value="mms" />
-            <item value="cbs" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="311" mnc="270">
-        <string-array name="dial_string_replace_string_array" num="2">
-            <item value="*611:+19085594899" />
-            <item value="*86:+1MDN" />
-        </string-array>
-        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
-            <item value="*71" />
-            <item value="*72" />
-            <item value="*73" />
-        </string-array>
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-        <long name="data_warning_threshold_bytes_long" value="-2" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="312" mnc="770">
-        <string-array name="dial_string_replace_string_array" num="2">
-            <item value="*611:+19085594899" />
-            <item value="*86:+1MDN" />
-        </string-array>
-        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
-            <item value="*71" />
-            <item value="*72" />
-            <item value="*73" />
-        </string-array>
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-        <long name="data_warning_threshold_bytes_long" value="-2" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="004">
-        <string-array name="dial_string_replace_string_array" num="2">
-            <item value="*611:+19085594899" />
-            <item value="*86:+1MDN" />
-        </string-array>
-        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
-            <item value="*71" />
-            <item value="*72" />
-            <item value="*73" />
-        </string-array>
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-        <long name="data_warning_threshold_bytes_long" value="-2" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="204" mnc="04" gid1="BAE0000000000000">
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-        <long name="data_warning_threshold_bytes_long" value="-2" />
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="5">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-            <item value="mms" />
-            <item value="cbs" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="311" mnc="480" gid1="BA01450000000000" gid2="A300000000000000">
-        <string name="sem_vowifi_opname_string">XM WiFi</string>
-        <string-array name="dial_string_replace_string_array" num="4">
-            <item value="611:+18889364968" />
-            <item value="*611:+18889364968" />
-            <item value="\#611:+18889364968" />
-            <item value="*86:+1MDN" />
-        </string-array>
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
     </carrier_config>
-    <carrier_config mcc="204" mnc="04" gid1="BA01450000000000" gid2="A300000000000000">
-        <string name="sem_vowifi_opname_string">XM WiFi</string>
-        <string-array name="dial_string_replace_string_array" num="4">
-            <item value="611:+18889364968" />
-            <item value="*611:+18889364968" />
-            <item value="\#611:+18889364968" />
-            <item value="*86:+1MDN" />
+    <carrier_config cid="1390">
+        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+            <item value="72432" />
+            <item value="72433" />
+            <item value="72434" />
         </string-array>
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
-    </carrier_config>
-    <carrier_config mcc="311" mnc="480" gid1="BA01490000000000" gid2="A700000000000000">
-        <string name="sem_vowifi_opname_string">Spectrum</string>
-    </carrier_config>
-    <carrier_config mcc="204" mnc="04" gid1="BA01490000000000" gid2="A700000000000000">
-        <string name="sem_vowifi_opname_string">Spectrum</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="120">
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="311" mnc="870">
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="311" mnc="490">
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="312" mnc="530">
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="310" mnc="000">
-        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="440" mnc="50">
-        <string-array name="gsm_nonroaming_networks_string_array" num="22">
-            <item value="44050" />
-            <item value="44051" />
-            <item value="44007" />
-            <item value="44008" />
-            <item value="44052" />
-            <item value="44053" />
-            <item value="44054" />
-            <item value="44055" />
-            <item value="44056" />
-            <item value="44070" />
-            <item value="44071" />
-            <item value="44072" />
-            <item value="44073" />
-            <item value="44074" />
-            <item value="44075" />
-            <item value="44076" />
-            <item value="44077" />
-            <item value="44078" />
-            <item value="44079" />
-            <item value="44088" />
-            <item value="44089" />
-            <item value="44170" />
-        </string-array>
-        <string-array name="carrier_data_call_retry_config_strings" num="5">
-            <item value="default:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="ims:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="emergency:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000" />
-            <item value="others:max_retries=3,5000,5000,5000" />
-        </string-array>
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="440" mnc="51">
-        <string-array name="gsm_nonroaming_networks_string_array" num="22">
-            <item value="44050" />
-            <item value="44051" />
-            <item value="44007" />
-            <item value="44008" />
-            <item value="44052" />
-            <item value="44053" />
-            <item value="44054" />
-            <item value="44055" />
-            <item value="44056" />
-            <item value="44070" />
-            <item value="44071" />
-            <item value="44072" />
-            <item value="44073" />
-            <item value="44074" />
-            <item value="44075" />
-            <item value="44076" />
-            <item value="44077" />
-            <item value="44078" />
-            <item value="44079" />
-            <item value="44088" />
-            <item value="44089" />
-            <item value="44170" />
-        </string-array>
-        <string-array name="carrier_data_call_retry_config_strings" num="5">
-            <item value="default:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="ims:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="emergency:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000" />
-            <item value="others:max_retries=3,5000,5000,5000" />
-        </string-array>
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="440" mnc="52">
-        <string-array name="gsm_nonroaming_networks_string_array" num="22">
-            <item value="44050" />
-            <item value="44051" />
-            <item value="44007" />
-            <item value="44008" />
-            <item value="44052" />
-            <item value="44053" />
-            <item value="44054" />
-            <item value="44055" />
-            <item value="44056" />
-            <item value="44070" />
-            <item value="44071" />
-            <item value="44072" />
-            <item value="44073" />
-            <item value="44074" />
-            <item value="44075" />
-            <item value="44076" />
-            <item value="44077" />
-            <item value="44078" />
-            <item value="44079" />
-            <item value="44088" />
-            <item value="44089" />
-            <item value="44170" />
-        </string-array>
-        <string-array name="carrier_data_call_retry_config_strings" num="5">
-            <item value="default:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="ims:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="emergency:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
-            <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000" />
-            <item value="others:max_retries=3,5000,5000,5000" />
-        </string-array>
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
     </carrier_config>
-    <carrier_config mcc="450" mnc="05">
-        <long name="data_warning_threshold_bytes_long" value="6000000000" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-            <item value="mms" />
+    <carrier_config cid="627">
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
+            <item value="71201" />
+            <item value="71202" />
         </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="450" mnc="06">
-        <long name="data_warning_threshold_bytes_long" value="6000000000" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-            <item value="mms" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
     </carrier_config>
-    <carrier_config mcc="450" mnc="08">
-        <long name="data_warning_threshold_bytes_long" value="6000000000" />
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-            <item value="mms" />
+    <carrier_config cid="1577">
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
+            <item value="33805" />
+            <item value="338050" />
         </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="505" mnc="01">
-        <string-array name="carrier_data_call_retry_config_strings" num="2">
-            <item value="default:max_retries=15,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,2560000:5000,5120000:5000,10240000:5000,20480000:5000,40960000:5000,81920000:5000" />
-            <item value="others:max_retries=15,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,2560000:5000,5120000:5000,10240000:5000,20480000:5000,40960000:5000,81920000:5000" />
-        </string-array>
-        <string name="sem_vowifi_opname_string">Telstra</string>
-    </carrier_config>
-    <carrier_config mcc="505" mnc="71">
-        <string name="sem_vowifi_opname_string">Telstra</string>
-    </carrier_config>
-    <carrier_config mcc="505" mnc="72">
-        <string name="sem_vowifi_opname_string">Telstra</string>
     </carrier_config>
-    <carrier_config mcc="450" mnc="01">
-        <string name="sem_vowifi_opname_string">Samsung-VoWifi</string>
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
+    <carrier_config cid="1914">
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
+            <item value="33403" />
+            <item value="334030" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="202" mnc="01">
         <string name="sem_vowifi_opname_string">COSMOTE WiFi Calling</string>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="202" mnc="05">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="202" mnc="09">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="202" mnc="10">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
     </carrier_config>
     <carrier_config mcc="204" mnc="12">
         <string-array name="gsm_nonroaming_networks_string_array" num="2">
@@ -761,11 +179,14 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="204" mnc="16" gid1="FF">
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+    <carrier_config gid1="FF" mcc="204" mnc="16">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="204" mnc="16" spn="T-Mobile  NL">
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="204" mnc="16" spn="Tele2 NL">
+        <string name="sem_vowifi_opname_string">Tele2 NL WiFi</string>
     </carrier_config>
     <carrier_config mcc="204" mnc="20">
         <string name="sem_vowifi_opname_string">T-Mobile NL WiFi</string>
@@ -780,11 +201,11 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="204" mnc="20" gid1="FF">
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+    <carrier_config gid1="FF" mcc="204" mnc="20">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="204" mnc="20" spn="T-Mobile  NL">
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="204" mnc="18">
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
@@ -795,6 +216,9 @@
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="20404" />
         </string-array>
+    </carrier_config>
+    <carrier_config gid2="56697267696E554B" mcc="206" mnc="01">
+        <string name="sem_vowifi_opname_string">WiFiCall</string>
     </carrier_config>
     <carrier_config mcc="206" mnc="05">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
@@ -807,6 +231,9 @@
             <item value="20610" />
             <item value="20620" />
         </string-array>
+    </carrier_config>
+    <carrier_config gid2="56697267696E554B" mcc="206" mnc="20">
+        <string name="sem_vowifi_opname_string">WiFiCall</string>
     </carrier_config>
     <carrier_config mcc="208" mnc="01">
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
@@ -846,10 +273,12 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="214" mnc="03">
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="5">
             <item value="default" />
             <item value="supl" />
             <item value="dun" />
+            <item value="mms" />
+            <item value="hipri" />
         </string-array>
         <string-array name="carrier_metered_apn_types_strings" num="3">
             <item value="default" />
@@ -1067,6 +496,9 @@
             <item value="21601" />
         </string-array>
     </carrier_config>
+    <carrier_config mcc="216" mnc="03">
+        <string name="sem_vowifi_opname_string">DIGI HU</string>
+    </carrier_config>
     <carrier_config mcc="216" mnc="30">
         <string name="sem_vowifi_opname_string">WiFi</string>
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
@@ -1092,15 +524,6 @@
             <item value="supl" />
             <item value="dun" />
         </string-array>
-    </carrier_config>
-    <carrier_config mcc="219" mnc="01" gid1="10">
-        <string name="sem_vowifi_opname_string">bonbon WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="219" mnc="01" gid1="11">
-        <string name="sem_vowifi_opname_string">bonbon WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="219" mnc="01" gid1="12">
-        <string name="sem_vowifi_opname_string">bonbon WiFi</string>
     </carrier_config>
     <carrier_config mcc="222" mnc="34">
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
@@ -1176,11 +599,6 @@
     <carrier_config mcc="228" mnc="53">
         <string-array name="gsm_nonroaming_networks_string_array" num="2">
             <item value="22801" />
-            <item value="22803" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="295" mnc="02">
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="22803" />
         </string-array>
     </carrier_config>
@@ -1271,6 +689,7 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="231" mnc="06">
+        <string name="sem_vowifi_opname_string">O2 - SK WiFi</string>
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1293,8 +712,17 @@
             <item value="supl" />
             <item value="dun" />
         </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
+            <item value="23205" />
+            <item value="23210" />
+        </string-array>
+        <string name="sem_vowifi_opname_string">WLAN-Call</string>
     </carrier_config>
     <carrier_config mcc="232" mnc="05">
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
+            <item value="23203" />
+            <item value="23210" />
+        </string-array>
         <string-array name="carrier_metered_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1312,12 +740,58 @@
             <item value="supl" />
             <item value="dun" />
         </string-array>
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
+        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+            <item value="23203" />
+            <item value="23205" />
+            <item value="23210" />
+        </string-array>
+        <string name="sem_vowifi_opname_string">WLAN-Call</string>
     </carrier_config>
     <carrier_config mcc="232" mnc="10">
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
+            <item value="23203" />
+            <item value="23205" />
+        </string-array>
         <string-array name="carrier_metered_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
             <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="232" mnc="11">
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="23201" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="232" mnc="12">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="23201" />
+        </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="23201" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="232" mnc="13">
+        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+            <item value="23203" />
+            <item value="23205" />
+            <item value="23210" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="232" mnc="17">
+        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+            <item value="23203" />
+            <item value="23205" />
+            <item value="23210" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="232" mnc="19">
+        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+            <item value="23203" />
+            <item value="23205" />
+            <item value="23210" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="234" mnc="08">
@@ -1355,7 +829,7 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="234" mnc="20" gid1="0305">
+    <carrier_config gid1="0305" mcc="234" mnc="20">
         <string name="sem_vowifi_opname_string">iD</string>
     </carrier_config>
     <carrier_config mcc="234" mnc="26">
@@ -1392,21 +866,42 @@
             <item value="supl" />
             <item value="dun" />
         </string-array>
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="234" mnc="30" gid1="b2">
+    <carrier_config gid1="b2" mcc="234" mnc="30">
         <string name="sem_vowifi_opname_string">BT OnePhone</string>
     </carrier_config>
-    <carrier_config mcc="234" mnc="30" gid1="b3">
+    <carrier_config gid1="b3" mcc="234" mnc="30">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
         <string name="sem_vowifi_opname_string">BT</string>
     </carrier_config>
-    <carrier_config mcc="234" mnc="30" gid1="c3">
+    <carrier_config gid1="c3" mcc="234" mnc="30">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
         <string name="sem_vowifi_opname_string">BT</string>
     </carrier_config>
-    <carrier_config mcc="234" mnc="30" gid1="28">
-        <boolean value="false" name="carrier_default_data_roaming_enabled_bool" />
+    <carrier_config gid1="28" mcc="234" mnc="30">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
+    </carrier_config>
+    <carrier_config gid2="56697267696E554B" mcc="234" mnc="30">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
+        <string-array name="sem_spn_override_only_on" num="6">
+            <item value="23430" />
+            <item value="23431" />
+            <item value="23432" />
+            <item value="23433" />
+            <item value="23434" />
+            <item value="23486" />
+        </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="6">
+            <item value="23430" />
+            <item value="23431" />
+            <item value="23432" />
+            <item value="23433" />
+            <item value="23434" />
+            <item value="23486" />
+        </string-array>
+        <string name="sem_vowifi_opname_string">WiFiCall</string>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="31">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
@@ -1426,7 +921,7 @@
             <item value="23434" />
             <item value="23486" />
         </string-array>
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1456,7 +951,7 @@
             <item value="23434" />
             <item value="23486" />
         </string-array>
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1485,7 +980,7 @@
             <item value="23486" />
         </string-array>
         <string name="sem_vowifi_opname_string">EE</string>
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1517,9 +1012,13 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="234" mnc="38">
-        <boolean value="false" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
     </carrier_config>
-    <carrier_config mcc="234" mnc="57" gid1="0C">
+    <carrier_config gid2="56697267696E554B" mcc="234" mnc="38">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
+        <string name="sem_vowifi_opname_string">WiFiCall</string>
+    </carrier_config>
+    <carrier_config gid1="0C" mcc="234" mnc="57">
         <string name="sem_vowifi_opname_string">Sky</string>
     </carrier_config>
     <carrier_config mcc="234" mnc="71">
@@ -1545,7 +1044,7 @@
             <item value="23486" />
         </string-array>
         <string name="sem_vowifi_opname_string">EE</string>
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1564,6 +1063,40 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
+    <carrier_config mcc="238" mnc="01">
+        <string name="sem_vowifi_opname_string">WiFi</string>
+    </carrier_config>
+    <carrier_config mcc="238" mnc="02">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="238" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="238" mnc="06">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="238" />
+        </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="23801" />
+        </string-array>
+        <string name="sem_vowifi_opname_string">3</string>
+    </carrier_config>
+    <carrier_config mcc="238" mnc="20">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="238" />
+        </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="23866" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="240" mnc="01">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="24005" />
+        </string-array>
+    </carrier_config>
     <carrier_config mcc="240" mnc="02">
         <string-array name="carrier_metered_apn_types_strings" num="3">
             <item value="default" />
@@ -1577,6 +1110,15 @@
             <item value="24008" />
             <item value="24024" />
         </string-array>
+    </carrier_config>
+    <carrier_config mcc="240" mnc="07">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="24005" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="0C" mcc="240" mnc="07">
+        <string name="sem_vowifi_opname_string">Sky</string>
     </carrier_config>
     <carrier_config mcc="240" mnc="08">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
@@ -1672,112 +1214,6 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="232" mnc="11">
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
-            <item value="23201" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="12">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="23201" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
-            <item value="23201" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="07">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="23203" />
-            <item value="23205" />
-            <item value="23210" />
-        </string-array>
-        <string name="sem_vowifi_opname_string">WLAN-Call</string>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="03">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="23205" />
-            <item value="23210" />
-        </string-array>
-        <string name="sem_vowifi_opname_string">WLAN-Call</string>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="10">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="23203" />
-            <item value="23205" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="05">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="23203" />
-            <item value="23210" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="13">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="23203" />
-            <item value="23205" />
-            <item value="23210" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="17">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="23203" />
-            <item value="23205" />
-            <item value="23210" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="232" mnc="19">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="23203" />
-            <item value="23205" />
-            <item value="23210" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="238" mnc="01">
-        <string name="sem_vowifi_opname_string">WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="238" mnc="02">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="238" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="238" mnc="06">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="238" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
-            <item value="23801" />
-        </string-array>
-        <string name="sem_vowifi_opname_string">3</string>
-    </carrier_config>
-    <carrier_config mcc="238" mnc="20">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="238" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
-            <item value="23866" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="240" mnc="01">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="24005" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="240" mnc="07">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="24005" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="240" mnc="07" gid1="0C">
-        <string name="sem_vowifi_opname_string">Sky</string>
-    </carrier_config>
     <carrier_config mcc="244" mnc="21">
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="24405" />
@@ -1785,7 +1221,7 @@
     </carrier_config>
     <carrier_config mcc="260" mnc="02">
         <string name="sem_vowifi_opname_string">T-Mobile.pl WiFi</string>
-        <boolean value="true" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
             <item value="default" />
             <item value="supl" />
@@ -1798,10 +1234,10 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="260" mnc="02" snp="heyah">
-        <boolean value="false" name="carrier_default_data_roaming_enabled_bool" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
     </carrier_config>
-    <carrier_config mcc="260" mnc="02" gid="23">
-        <boolean value="false" name="carrier_default_data_roaming_enabled_bool" />
+    <carrier_config gid="23" mcc="260" mnc="02">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="260" mnc="03">
         <string name="sem_vowifi_opname_string">WiFi Calling</string>
@@ -1860,6 +1296,7 @@
             <item value="supl" />
             <item value="dun" />
         </string-array>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="268" mnc="06">
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
@@ -1872,6 +1309,7 @@
             <item value="supl" />
             <item value="dun" />
         </string-array>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="268" mnc="89">
         <string-array name="carrier_metered_apn_types_strings" num="3">
@@ -1955,6 +1393,551 @@
             <item value="29403" />
         </string-array>
     </carrier_config>
+    <carrier_config mcc="295" mnc="02">
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="22803" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="120">
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+    </carrier_config>
+    <carrier_config mcc="311" mnc="870">
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+    </carrier_config>
+    <carrier_config mcc="311" mnc="490">
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="000">
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+    </carrier_config>
+    <carrier_config mcc="312" mnc="530">
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="160">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="200">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="210">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="220">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="230">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="240">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="250">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="260">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="270">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="310">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="490">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="660">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="800">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="544D" mcc="310" mnc="886">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="160">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="200">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="210">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="220">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="230">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="240">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="250">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="260">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="270">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="300">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="310">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="490">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="530">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="580">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="590">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="640">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="660">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="800">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="4D4B" mcc="310" mnc="260">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="534D" mcc="310" mnc="260">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="DEFF" mcc="310" mnc="260">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1="BA01270000000000" mcc="310" mnc="028">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="BA01270000000000" mcc="311" mnc="390">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="150">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="170">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="380">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="410">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="DDFF" mcc="310" mnc="410">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="mms" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="mms" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="DEFF" mcc="310" mnc="410">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="mms" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="mms" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="560">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="180">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="950">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="030">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="280">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="313" mnc="100">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="312" mnc="670">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="480">
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="5">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+            <item value="cbs" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="270">
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="312" mnc="770">
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="004">
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="BAE0000000000000" mcc="204" mnc="04">
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="5">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+            <item value="cbs" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="BA01270000000000" mcc="311" mnc="480">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="BAE1000000000000" mcc="311" mnc="480">
+        <string name="sem_vowifi_opname_string">Visible</string>
+    </carrier_config>
+    <carrier_config gid1="BAE1000000000000" mcc="204" mnc="04">
+        <string name="sem_vowifi_opname_string">Visible</string>
+    </carrier_config>
+    <carrier_config gid1="BA01450000000000" gid2="A300000000000000" mcc="311" mnc="480">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
+        <string name="sem_vowifi_opname_string">Xfinity Mobile Wi-Fi Calling</string>
+        <string-array name="dial_string_replace_string_array" num="4">
+            <item value="611:+18889364968" />
+            <item value="*611:+18889364968" />
+            <item value="\\#611:+18889364968" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+        </string-array>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
+        <boolean name="cdma_home_registered_plmn_name_override_bool" value="false" />
+    </carrier_config>
+    <carrier_config gid1="BA01450000000000" gid2="A300000000000000" mcc="204" mnc="04">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
+        <string name="sem_vowifi_opname_string">XM WiFi</string>
+        <string-array name="dial_string_replace_string_array" num="4">
+            <item value="611:+18889364968" />
+            <item value="*611:+18889364968" />
+            <item value="\\#611:+18889364968" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="false" />
+        <boolean name="cdma_home_registered_plmn_name_override_bool" value="false" />
+    </carrier_config>
+    <carrier_config gid1="BA01490000000000" gid2="A700000000000000" mcc="311" mnc="480">
+        <string name="sem_vowifi_opname_string">Spectrum</string>
+    </carrier_config>
+    <carrier_config gid1="BA01490000000000" gid2="A700000000000000" mcc="204" mnc="04">
+        <string name="sem_vowifi_opname_string">Spectrum</string>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="580">
+        <string name="sem_spn_display_rule_in_roaming">SPN_RULE_SHOW_PLMN</string>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="120">
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="311" mnc="870">
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="311" mnc="490">
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="312" mnc="530">
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="000">
+        <boolean name="convert_cdma_caller_id_mmi_codes_while_roaming_on_3gpp_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="302" mnc="610">
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="302" />
@@ -1966,14 +1949,20 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="334" mnc="090">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+        <string-array name="gsm_nonroaming_networks_string_array" num="5">
+            <item value="33402" />
+            <item value="334020" />
             <item value="33403" />
             <item value="334030" />
             <item value="334050" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="334" mnc="050">
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+        <string-array name="gsm_nonroaming_networks_string_array" num="5">
+            <item value="33402" />
+            <item value="334020" />
+            <item value="33403" />
+            <item value="334030" />
             <item value="334090" />
         </string-array>
     </carrier_config>
@@ -1996,30 +1985,6 @@
             <item value="33402" />
             <item value="334020" />
             <item value="33420" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="334" mnc="03">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="33403" />
-            <item value="334030" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="334" mnc="030">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="33403" />
-            <item value="334030" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="338" mnc="050">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="33805" />
-            <item value="338050" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="338" mnc="05">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="33805" />
-            <item value="338050" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="338" mnc="180">
@@ -2084,72 +2049,6 @@
             <item value="40489" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="405" mnc="840">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="854">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="855">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="856">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="857">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="858">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="859">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="860">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="861">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="862">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="863">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="864">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="865">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="866">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="867">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="868">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="869">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="870">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="871">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="872">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="873">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
-    <carrier_config mcc="405" mnc="874">
-        <string name="sem_vowifi_opname_string">Jio WiFi</string>
-    </carrier_config>
     <carrier_config mcc="419" mnc="03">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
         <string name="sem_spn">Ooredoo</string>
@@ -2172,17 +2071,6 @@
     <carrier_config mcc="436" mnc="02">
         <string-array name="gsm_nonroaming_networks_string_array" num="1">
             <item value="43601" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="440" mnc="10">
-        <string name="sem_spn">NTT DOCOMO</string>
-        <string-array name="carrier_metered_roaming_apn_types_strings" num="2">
-            <item value="default" />
-            <item value="supl" />
-        </string-array>
-        <string-array name="carrier_metered_apn_types_strings" num="2">
-            <item value="default" />
-            <item value="supl" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="440" mnc="07">
@@ -2235,6 +2123,164 @@
             <item value="44088" />
             <item value="44089" />
             <item value="44170" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="10">
+        <int-array name="only_single_dc_allowed_int_array" num="10">
+            <item value="3" />
+            <item value="4" />
+            <item value="5" />
+            <item value="6" />
+            <item value="7" />
+            <item value="8" />
+            <item value="9" />
+            <item value="10" />
+            <item value="11" />
+            <item value="12" />
+        </int-array>
+        <string name="sem_spn">NTT DOCOMO</string>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="2">
+            <item value="default" />
+            <item value="supl" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="2">
+            <item value="default" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
+    <carrier_config iccid="8981090">
+        <string name="sem_spn_display_rule_in_roaming">SPN_RULE_SHOW_SPN</string>
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="44053" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="50">
+        <string-array name="gsm_nonroaming_networks_string_array" num="22">
+            <item value="44050" />
+            <item value="44051" />
+            <item value="44007" />
+            <item value="44008" />
+            <item value="44052" />
+            <item value="44053" />
+            <item value="44054" />
+            <item value="44055" />
+            <item value="44056" />
+            <item value="44070" />
+            <item value="44071" />
+            <item value="44072" />
+            <item value="44073" />
+            <item value="44074" />
+            <item value="44075" />
+            <item value="44076" />
+            <item value="44077" />
+            <item value="44078" />
+            <item value="44079" />
+            <item value="44088" />
+            <item value="44089" />
+            <item value="44170" />
+        </string-array>
+        <string-array name="carrier_data_call_retry_config_strings" num="5">
+            <item value="default:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="ims:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="emergency:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000" />
+            <item value="others:max_retries=3,5000,5000,5000" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="51">
+        <string-array name="gsm_nonroaming_networks_string_array" num="22">
+            <item value="44050" />
+            <item value="44051" />
+            <item value="44007" />
+            <item value="44008" />
+            <item value="44052" />
+            <item value="44053" />
+            <item value="44054" />
+            <item value="44055" />
+            <item value="44056" />
+            <item value="44070" />
+            <item value="44071" />
+            <item value="44072" />
+            <item value="44073" />
+            <item value="44074" />
+            <item value="44075" />
+            <item value="44076" />
+            <item value="44077" />
+            <item value="44078" />
+            <item value="44079" />
+            <item value="44088" />
+            <item value="44089" />
+            <item value="44170" />
+        </string-array>
+        <string-array name="carrier_data_call_retry_config_strings" num="5">
+            <item value="default:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="ims:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="emergency:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000" />
+            <item value="others:max_retries=3,5000,5000,5000" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="440" mnc="52">
+        <string-array name="gsm_nonroaming_networks_string_array" num="22">
+            <item value="44050" />
+            <item value="44051" />
+            <item value="44007" />
+            <item value="44008" />
+            <item value="44052" />
+            <item value="44053" />
+            <item value="44054" />
+            <item value="44055" />
+            <item value="44056" />
+            <item value="44070" />
+            <item value="44071" />
+            <item value="44072" />
+            <item value="44073" />
+            <item value="44074" />
+            <item value="44075" />
+            <item value="44076" />
+            <item value="44077" />
+            <item value="44078" />
+            <item value="44079" />
+            <item value="44088" />
+            <item value="44089" />
+            <item value="44170" />
+        </string-array>
+        <string-array name="carrier_data_call_retry_config_strings" num="5">
+            <item value="default:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="ims:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="emergency:max_retries=infinite,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,1800000:5000" />
+            <item value="mms:default_randomization=2000,10000,18000:5000,720000:5000,2160000:5000" />
+            <item value="others:max_retries=3,5000,5000,5000" />
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="440" mnc="53">
@@ -2679,6 +2725,83 @@
             <item value="44170" />
         </string-array>
     </carrier_config>
+    <carrier_config mcc="450" mnc="01">
+        <string name="sem_vowifi_opname_string">Samsung-VoWifi</string>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="450">
+        <string-array name="feature_access_codes_string_array" num="2">
+            <item value="23" />
+            <item value="230" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="05">
+        <long name="data_warning_threshold_bytes_long" value="6000000000" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string name="carrier_instant_lettering_escaped_chars_string" />
+        <string-array name="feature_access_codes_string_array" num="3">
+            <item value="23" />
+            <item value="22" />
+            <item value="230" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="06">
+        <long name="data_warning_threshold_bytes_long" value="6000000000" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string name="carrier_instant_lettering_invalid_chars_string">[\n]</string>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="08">
+        <long name="data_warning_threshold_bytes_long" value="6000000000" />
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+        <string name="carrier_instant_lettering_invalid_chars_string">[\n]</string>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="11">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+            <item value="mms" />
+        </string-array>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
     <carrier_config mcc="452" mnc="02">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
         <string name="sem_spn">VN VINAPHONE</string>
@@ -2692,6 +2815,7 @@
         <string-array name="sem_spn_override_only_on" num="1">
             <item value="45205" />
         </string-array>
+        <string name="sem_vowifi_opname_string">VN Vietnamobile</string>
     </carrier_config>
     <carrier_config mcc="456" mnc="01">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
@@ -2699,6 +2823,65 @@
         <string-array name="sem_spn_override_only_on" num="1">
             <item value="45601" />
         </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="00">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="01">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="02">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="03">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="07">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="08">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="09">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="11">
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="supl" />
+            <item value="dun" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="466" mnc="05">
+        <string name="sem_vowifi_opname_string">GT WiFi</string>
     </carrier_config>
     <carrier_config mcc="502" mnc="12">
         <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
@@ -2777,16 +2960,85 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="505" mnc="02" gid1="02">
+    <carrier_config mcc="505" mnc="01">
+        <string-array name="carrier_data_call_retry_config_strings" num="2">
+            <item value="default:max_retries=15,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,2560000:5000,5120000:5000,10240000:5000,20480000:5000,40960000:5000,81920000:5000" />
+            <item value="others:max_retries=15,default_randomization=2000,5000,10000,20000,40000,80000:5000,160000:5000,320000:5000,640000:5000,1280000:5000,2560000:5000,5120000:5000,10240000:5000,20480000:5000,40960000:5000,81920000:5000" />
+        </string-array>
+        <string name="sem_vowifi_opname_string">Telstra</string>
+    </carrier_config>
+    <carrier_config mcc="505" mnc="71">
+        <string name="sem_vowifi_opname_string">Telstra</string>
+    </carrier_config>
+    <carrier_config mcc="505" mnc="72">
+        <string name="sem_vowifi_opname_string">Telstra</string>
+    </carrier_config>
+    <carrier_config gid1="02" mcc="505" mnc="02">
         <string name="sem_vowifi_opname_string">YES OPTUS</string>
     </carrier_config>
-    <carrier_config mcc="505" mnc="02" gid1="03">
+    <carrier_config gid1="03" mcc="505" mnc="02">
         <string name="sem_vowifi_opname_string">BOOST</string>
+    </carrier_config>
+    <carrier_config mcc="510" mnc="08">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="1">
+            <item value="51008" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="510" mnc="09">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string name="sem_spn">Smartfren</string>
+        <string-array name="sem_spn_override_only_on" num="8">
+            <item value="51000" />
+            <item value="51001" />
+            <item value="51008" />
+            <item value="51009" />
+            <item value="51010" />
+            <item value="51011" />
+            <item value="51021" />
+            <item value="51089" />
+        </string-array>
     </carrier_config>
     <carrier_config mcc="510" mnc="10">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
         <string-array name="sem_spn_override_only_on" num="1">
             <item value="51010" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="510" mnc="68">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string name="sem_spn">BOLT! Super 4G</string>
+        <string-array name="sem_spn_override_only_on" num="9">
+            <item value="51000" />
+            <item value="51001" />
+            <item value="51008" />
+            <item value="51010" />
+            <item value="51011" />
+            <item value="51021" />
+            <item value="51068" />
+            <item value="51088" />
+            <item value="51089" />
+        </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="51088" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="510" mnc="88">
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string name="sem_spn">BOLT! Super 4G</string>
+        <string-array name="sem_spn_override_only_on" num="9">
+            <item value="51000" />
+            <item value="51001" />
+            <item value="51008" />
+            <item value="51010" />
+            <item value="51011" />
+            <item value="51021" />
+            <item value="51068" />
+            <item value="51088" />
+            <item value="51089" />
+        </string-array>
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="51068" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="515" mnc="02">
@@ -2866,62 +3118,6 @@
         <string-array name="sem_spn_override_only_on" num="2">
             <item value="51503" />
             <item value="515039" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="510" mnc="08">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="1">
-            <item value="51008" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="510" mnc="09">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string name="sem_spn">Smartfren</string>
-        <string-array name="sem_spn_override_only_on" num="8">
-            <item value="51000" />
-            <item value="51001" />
-            <item value="51008" />
-            <item value="51009" />
-            <item value="51010" />
-            <item value="51011" />
-            <item value="51021" />
-            <item value="51089" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="510" mnc="68">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string name="sem_spn">BOLT! Super 4G</string>
-        <string-array name="sem_spn_override_only_on" num="9">
-            <item value="51000" />
-            <item value="51001" />
-            <item value="51008" />
-            <item value="51010" />
-            <item value="51011" />
-            <item value="51021" />
-            <item value="51068" />
-            <item value="51088" />
-            <item value="51089" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
-            <item value="51088" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="510" mnc="88">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string name="sem_spn">BOLT! Super 4G</string>
-        <string-array name="sem_spn_override_only_on" num="9">
-            <item value="51000" />
-            <item value="51001" />
-            <item value="51008" />
-            <item value="51010" />
-            <item value="51011" />
-            <item value="51021" />
-            <item value="51068" />
-            <item value="51088" />
-            <item value="51089" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
-            <item value="51068" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="520" mnc="00">
@@ -3018,17 +3214,17 @@
             <item value="dun" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="525" mnc="01">
-        <string name="sem_vowifi_opname_string">Singtel</string>
-    </carrier_config>
-    <carrier_config mcc="525" mnc="02">
-        <string name="sem_vowifi_opname_string">Singtel</string>
-    </carrier_config>
     <carrier_config mcc="525" mnc="03">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_PLMN</string>
         <string-array name="sem_spn_override_only_on" num="1">
             <item value="52503" />
         </string-array>
+    </carrier_config>
+    <carrier_config gid1="0A" mcc="525" mnc="05">
+        <string name="sem_vowifi_opname_string">GT WiFi</string>
+    </carrier_config>
+    <carrier_config mcc="530" mnc="24">
+        <string name="sem_spn_display_rule_in_roaming">SPN_RULE_SHOW_SPN</string>
     </carrier_config>
     <carrier_config mcc="603" mnc="01">
         <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
@@ -3062,98 +3258,82 @@
     </carrier_config>
     <carrier_config mcc="655" mnc="07">
         <string name="sem_vowifi_opname_string">Cell C</string>
+        <string name="sem_spn_display_rule_in_roaming">SPN_RULE_SHOW_SPN</string>
+    </carrier_config>
+    <carrier_config mcc="732" mnc="101">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="740" mnc="01">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="330" mnc="110">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="744" mnc="04">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="740" mnc="00">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="334" mnc="03">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="334" mnc="030">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="712" mnc="04">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="706" mnc="04">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="706" mnc="040">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="710" mnc="300">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="714" mnc="020">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="704" mnc="03">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="704" mnc="030">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="716" mnc="06">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="655" mnc="10">
         <string name="sem_vowifi_opname_string">MTN-SA VoWiFi</string>
     </carrier_config>
-    <carrier_config mcc="724" mnc="02">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="72402" />
-            <item value="72403" />
-            <item value="72404" />
+    <carrier_config mcc="716" mnc="17">
+        <long name="data_warning_threshold_bytes_long" value="-2" />
+    </carrier_config>
+    <carrier_config mcc="722" mnc="01">
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="72207" />
         </string-array>
+    </carrier_config>
+    <carrier_config mcc="722" mnc="010">
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="72207" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="724" mnc="02">
         <string-array name="carrier_data_call_retry_config_strings" num="1">
             <item value="ims:max_retries=3,default_randomization=2000,5000,5000,5000" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="724" mnc="03">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="72402" />
-            <item value="72403" />
-            <item value="72404" />
-        </string-array>
         <string-array name="carrier_data_call_retry_config_strings" num="1">
             <item value="ims:max_retries=3,default_randomization=2000,5000,5000,5000" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="724" mnc="04">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="72402" />
-            <item value="72403" />
-            <item value="72404" />
-        </string-array>
         <string-array name="carrier_data_call_retry_config_strings" num="1">
             <item value="ims:max_retries=3,default_randomization=2000,5000,5000,5000" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="10">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="11">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="06">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="23">
-        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
-        <string-array name="sem_spn_override_only_on" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
-        </string-array>
-        <string-array name="gsm_nonroaming_networks_string_array" num="4">
-            <item value="72410" />
-            <item value="72411" />
-            <item value="72406" />
-            <item value="72423" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="724" mnc="16">
@@ -3175,27 +3355,6 @@
             <item value="72416" />
             <item value="72424" />
             <item value="72431" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="32">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="72432" />
-            <item value="72433" />
-            <item value="72434" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="33">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="72432" />
-            <item value="72433" />
-            <item value="72434" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="724" mnc="34">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
-            <item value="72432" />
-            <item value="72433" />
-            <item value="72434" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="730" mnc="03">
@@ -3226,8 +3385,9 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="730" mnc="08">
-        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+        <string-array name="gsm_nonroaming_networks_string_array" num="2">
             <item value="73002" />
+            <item value="73003" />
         </string-array>
     </carrier_config>
     <carrier_config mcc="730" mnc="09">
@@ -3240,30 +3400,34 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="730" mnc="01">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+        <string-array name="gsm_nonroaming_networks_string_array" num="5">
             <item value="73001" />
+            <item value="73002" />
+            <item value="73003" />
             <item value="73010" />
             <item value="73021" />
         </string-array>
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="2">
+            <item value="73002" />
+            <item value="73003" />
+        </string-array>
+        <string name="sem_spn">Entel</string>
     </carrier_config>
     <carrier_config mcc="730" mnc="10">
-        <string-array name="gsm_nonroaming_networks_string_array" num="3">
+        <string-array name="gsm_nonroaming_networks_string_array" num="5">
             <item value="73001" />
+            <item value="73002" />
+            <item value="73003" />
             <item value="73010" />
             <item value="73021" />
         </string-array>
-    </carrier_config>
-    <carrier_config mcc="712" mnc="01">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="71201" />
-            <item value="71202" />
+        <string name="sem_spn_display_rule">SPN_RULE_SHOW_SPN</string>
+        <string-array name="sem_spn_override_only_on" num="2">
+            <item value="73002" />
+            <item value="73003" />
         </string-array>
-    </carrier_config>
-    <carrier_config mcc="712" mnc="02">
-        <string-array name="gsm_nonroaming_networks_string_array" num="2">
-            <item value="71201" />
-            <item value="71202" />
-        </string-array>
+        <string name="sem_spn">Entel</string>
     </carrier_config>
     <carrier_config mcc="732" mnc="103">
         <string-array name="gsm_nonroaming_networks_string_array" num="2">
@@ -3278,6 +3442,7 @@
         </string-array>
     </carrier_config>
     <carrier_config mcc="732" mnc="130">
+        <boolean name="spn_display_rule_use_roaming_from_service_state_bool" value="true" />
         <string-array name="gsm_nonroaming_networks_string_array" num="4">
             <item value="732103" />
             <item value="732111" />
@@ -3323,164 +3488,42 @@
             <item value="74001" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="310" mnc="160" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="200" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="210" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="220" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="230" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="240" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="250" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="270" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="310" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="490" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="660" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="800" gid1="6D38">
-        <string name="sem_vowifi_opname_string">MetroPCS Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="160" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="200" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="210" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="220" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="230" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="240" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="250" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="260" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="270" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="310" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="490" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="490" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="660" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="310" mnc="800" gid1="544D">
-        <string name="sem_vowifi_opname_string">T-Mobile Wi-Fi Calling</string>
-    </carrier_config>
-    <carrier_config mcc="440" mnc="10">
-        <int-array name="only_single_dc_allowed_int_array" num="10">
-            <item value="3" />
-            <item value="4" />
-            <item value="5" />
-            <item value="6" />
-            <item value="7" />
-            <item value="8" />
-            <item value="9" />
-            <item value="10" />
-            <item value="11" />
-            <item value="12" />
-        </int-array>
-    </carrier_config>
-    <carrier_config mcc="450" mnc="06">
-        <string name="carrier_instant_lettering_invalid_chars_string">[\n]</string>
-    </carrier_config>
-    <carrier_config mcc="450" mnc="08">
-        <string name="carrier_instant_lettering_invalid_chars_string">[\n]</string>
-    </carrier_config>
-    <carrier_config mcc="450" mnc="05">
-        <string name="carrier_instant_lettering_escaped_chars_string" />
-    </carrier_config>
-    <carrier_config mcc="460" mnc="00">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
+    <carrier_config gid1="BA00040000000000" mcc="311" mnc="480">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="6">
             <item value="default" />
             <item value="supl" />
             <item value="dun" />
+            <item value="mms" />
+            <item value="cbs" />
+            <item value="hipri" />
         </string-array>
-    </carrier_config>
-    <carrier_config mcc="460" mnc="01">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
+        <string-array name="carrier_metered_apn_types_strings" num="5">
             <item value="default" />
             <item value="supl" />
             <item value="dun" />
+            <item value="mms" />
+            <item value="hipri" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="460" mnc="02">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
+    <carrier_config gid1="BA00010000000000" mcc="311" mnc="480">
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="6">
             <item value="default" />
             <item value="supl" />
             <item value="dun" />
+            <item value="mms" />
+            <item value="cbs" />
+            <item value="hipri" />
         </string-array>
-    </carrier_config>
-    <carrier_config mcc="460" mnc="03">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
+        <string-array name="carrier_metered_apn_types_strings" num="5">
             <item value="default" />
             <item value="supl" />
             <item value="dun" />
+            <item value="mms" />
+            <item value="hipri" />
         </string-array>
     </carrier_config>
-    <carrier_config mcc="460" mnc="07">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="460" mnc="08">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="460" mnc="09">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="460" mnc="11">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="supl" />
-            <item value="dun" />
-        </string-array>
+    <carrier_config gid1="DEFF" mcc="330" mnc="110">
+        <long name="data_warning_threshold_bytes_long" value="100000000000" />
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true" />
     </carrier_config>
 </carrier_config_list>
