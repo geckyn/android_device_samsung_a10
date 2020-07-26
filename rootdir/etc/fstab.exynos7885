@@ -4,9 +4,7 @@
 # specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
 
 # system and vendor partition will be early-mounted by kernel
-/dev/block/platform/13500000.dwmmc0/by-name/system	/		ext4	ro,barrier=1,discard	wait
-/dev/block/platform/13500000.dwmmc0/by-name/vendor	/vendor		ext4	ro,barrier=1,discard	wait
-/dev/block/platform/13500000.dwmmc0/by-name/boot        /boot           emmc      defaults                                                    defaults
+# /dev/block/platform/13500000.dwmmc0/by-name/system	/system		ext4	ro	wait
 /dev/block/platform/13500000.dwmmc0/by-name/cache	/cache		ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic		wait,check
 # /dev/block/platform/13500000.dwmmc0/by-name/userdata	/data		ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic		wait,check,fileencryption=aes-256-xts,quota,reservedsize=128M
 /dev/block/platform/13500000.dwmmc0/by-name/userdata	/data		ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic		wait,check,encryptable,quota,reservedsize=128M
