@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/samsung/a10
 
+PRODUCT_SOONG_NAMESPACES += \
+    device/samsung/a10
+
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
