@@ -4,9 +4,9 @@ include $(CLEAR_VARS)
 
 LIBGLES_MALI_LIBRARY := /vendor/lib/egl/libGLES_mali.so
 
-VULKAN_SYMLINK := $(TARGET_OUT_VENDOR)/lib/hw/vulkan.exynos5.so
+VULKAN_SYMLINK := $(TARGET_OUT_VENDOR)/lib/hw/vulkan.universal7884B.so
 $(VULKAN_SYMLINK): $(LOCAL_INSTALLED_MODULE)
-	@echo "Creating lib/hw/vulkan.exynos5.so symlink: $@"
+	@echo "Creating lib/hw/vulkan.universal7884B.so symlink: $@"
 	@mkdir -p $(dir $@)
 	$(hide) ln -sf $(LIBGLES_MALI_LIBRARY) $@
 
