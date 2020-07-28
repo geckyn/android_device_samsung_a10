@@ -62,4 +62,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cfg.custom_tm_limit=1000 \
 	ro.cfg.freelimit_val=11 \
 	ro.cfg.enable_reentry_lmk=true \
-	ro.config.systemaudiodebug=abox
+	ro.config.systemaudiodebug=abox  \
+	qemu.hw.mainkeys=0
