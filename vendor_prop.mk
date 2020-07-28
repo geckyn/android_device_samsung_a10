@@ -6,8 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.demo.hdmirotationlock=false \
 	dev.usbsetting.embedded=on \
 	vendor.rild.libpath=/vendor/lib64/libsec-ril.so \
-	vendor.rild.libargs=-d
-/dev/umts_ipc0 \
+	vendor.rild.libargs=-d /dev/umts_ipc0 \
 	ro.debug_level=0x494d \
 	ro.hdcp2.rx=tz \
 	debug.sf.disable_backpressure=1 \
