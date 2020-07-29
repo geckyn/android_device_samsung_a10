@@ -9,6 +9,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.rild.libargs=-d /dev/umts_ipc0 \
 	ro.debug_level=0x494d \
 	ro.hdcp2.rx=tz \
+	debug.sf.latch_unsignaled=1 \
 	debug.sf.disable_backpressure=1 \
 	wifi.interface=wlan0 \
 	ro.opengles.version=196610 \
