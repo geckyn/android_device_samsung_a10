@@ -6,6 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heaptargetutilization=0.75 \
     debug.hwc.winupdate=1 \
+    debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1 \
     debug.slsi_platform=1 \
     dev.usbsetting.embedded=on \
