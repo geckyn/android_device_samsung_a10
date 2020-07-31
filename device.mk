@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.exynos7884B \
+    init.a10.rc \
     init.baseband.rc \
     init.exynos7884B.rc \
     init.exynos7884B.usb.rc \
