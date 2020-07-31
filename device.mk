@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.exynos7885 \
+    init.a10.rc \
     init.baseband.rc \
     init.exynos7885.rc \
     init.exynos7885.usb.rc \
