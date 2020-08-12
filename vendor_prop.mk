@@ -66,3 +66,5 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     sys.config.activelaunch_enable=true \
     vendor.sec.rild.libpath2=/vendor/lib/libsec-ril-dsds.so \
     vendor.sec.rild.libpath=/vendor/lib/libsec-ril.so \
+    ro.hardware.sensors=universal7884B \
+    ro.hardware.thermal=universal7884B
