@@ -148,9 +148,7 @@ BOARD_SEPOLICY_VERS := 29.0
 BOARD_SEPOLICY_TEE_FLAVOR := teegris
 include device/lineage/sepolicy/exynos/sepolicy.mk
 include device/samsung_slsi/sepolicy/sepolicy.mk
-
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-SELINUX_IGNORE_NEVERALLOWS := true
 
 # System-as-root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
