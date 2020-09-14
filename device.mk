@@ -55,6 +55,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Graphics allocator
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service
+
 # Graphics composer
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
