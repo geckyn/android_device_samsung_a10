@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
     wifi_slsi.rc \
     ueventd.exynos7884B.rc
 
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
