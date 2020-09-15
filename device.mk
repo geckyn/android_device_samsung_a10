@@ -149,6 +149,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Thermal
+PRODUCT_PACKAGES += \
+    androdi.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service
+
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
