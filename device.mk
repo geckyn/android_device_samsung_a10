@@ -51,6 +51,21 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio@4.0-impl \
+    android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.audio.common@4.0 \
+    android.hardware.audio.common@2.0-util \
+    android.hardware.audio.common@4.0-util \
+    android.hardware.audio@2.0-service \
+    libaudioroute \
+    libtinyalsa \
+    libtinycompress \
+    audio.r_submix.default \
+    audio.usb.default
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
