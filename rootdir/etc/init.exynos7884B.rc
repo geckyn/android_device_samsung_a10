@@ -717,4 +717,11 @@ service swapon /sbin/sswap -s -f 1536
     group root
     seclabel u:r:sswap:s0
     oneshot
-    
+
+# LPM
+service lpm /system/bin/charger
+    class sec-charger
+    user root
+    group system radio input
+    capabilities SYS_BOOT
+    critical
