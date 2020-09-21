@@ -157,7 +157,7 @@
      <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
 
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in hardware. -->
-     <bool name="config_setColorTransformAccelerated">false</bool>
+     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Control whether Night display is available. This should only be enabled
       on devices with HWC 2 color transform support. -->
