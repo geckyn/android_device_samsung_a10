@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/samsung/a10/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ResurrectionRemix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a10
-PRODUCT_NAME := lineage_a10
+PRODUCT_NAME := rr_a10
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A105F
 PRODUCT_MANUFACTURER := samsung
@@ -34,6 +34,9 @@ PRODUCT_PDA_MODEL := A105F
 PRODUCT_PDA_MODEL_VERSION := DDU3BTF1
 PRODUCT_PDA_VERSION := $(PRODUCT_PDA_MODEL)$(PRODUCT_PDA_MODEL_VERSION)
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 BUILD_FINGERPRINT := samsung/a10dd/a10:10/QP1A.190711.020/A105FDDU3BTF1:user/release-keys
 
