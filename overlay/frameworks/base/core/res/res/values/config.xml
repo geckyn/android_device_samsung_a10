@@ -243,7 +243,7 @@
      <bool name="config_wifi_softap_acs_supported">true</bool>
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
-     <bool name="config_wifi_softap_ieee80211ac_supported">false</bool>
+     <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
